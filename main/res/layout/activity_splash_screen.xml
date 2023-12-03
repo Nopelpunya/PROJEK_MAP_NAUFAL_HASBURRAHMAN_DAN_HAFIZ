@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0D47A1"
+    tools:context=".SplashScreen">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/splash"
+        android:layout_marginTop="310dp"
+        />
+
+    <TextView
+        android:id="@+id/txt_fitness"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="420dp"
+        android:background="@drawable/button"
+        android:text="Fitness"
+        android:textAlignment="center"
+        android:textColor="#1565C0"
+        android:textSize="20dp"
+        android:fontFamily="serif"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/txt_app"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="225dp"
+        android:layout_marginTop="420dp"
+        android:text="APP"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:fontFamily="serif"
+        android:textStyle="italic|bold" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="550sp"
+        />
+
+</RelativeLayout>
